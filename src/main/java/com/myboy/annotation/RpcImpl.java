@@ -9,5 +9,8 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface RpcImpl {
 
+    /**
+     * 实现类全限定类名
+     */
     String value();
 }
